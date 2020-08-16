@@ -1,0 +1,46 @@
+@import '_variables';
+
+.progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__bar {
+    flex-grow: 1;
+    height: 7px;
+    margin: 10px 0 10px 5px;
+    background-color: $color-progress-bar;
+    border-radius: 10px;
+
+    &--fill {
+      height: 100%;
+      border-radius: 10px;
+      transition: .7s;
+    }
+  }
+
+  &__percent {
+    margin: 0 10px;
+    font-size: $font-size-s;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .progress {
+    position: relative;
+
+    &__bar {
+      height: 10px;
+      margin: 10px 60px;
+    }
+
+    &__percent {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      margin: 0;
+    }
+  }
+}

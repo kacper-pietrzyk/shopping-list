@@ -1,0 +1,53 @@
+@import '_variables';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  background: linear-gradient(to top, rgb(250, 229, 150) 15%, rgb(63, 176, 172) 40%, rgb(23, 62, 67));
+  font-family: $font-family-secondary;
+}
+
+.headline {
+  margin-bottom: 20px;
+  padding: 40px 0 0;
+  color: $color-headline;
+  font-family: $font-family-default;
+  font-size: $font-size-l;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 30px;
+  padding: 20px 15px 10px;
+  background-color: $color-main-background;
+  border-radius: 15px;
+  box-shadow: 1px 2px 8px 3px $color-main-box-shadow;
+}
+
+@media (min-width: 800px) {
+  .app {
+    margin: 0 20px 40px;
+    padding: 30px 20px 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    margin: 0 30px 45px;
+    padding: 35px 30px 20px;
+  }
+}

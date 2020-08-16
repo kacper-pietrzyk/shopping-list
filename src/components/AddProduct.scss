@@ -1,0 +1,41 @@
+@import '_variables';
+
+.add-product {
+
+  &__input {
+    width: 100%;
+    padding: 10px;
+    background-color: $color-default-background;
+    border: 1px solid $color-border;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px $color-default-box-shadow;
+    font-family: $font-family-default;
+    font-size: $font-size-m;
+  }
+
+  &__part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 0;
+  }
+
+  &__label {
+    font-size: $font-size-s;
+  }
+
+  &__checkbox {
+    margin-right: 5px;
+    box-shadow: 1px 1px 3px 0px $color-default-box-shadow;
+  }
+
+  &__button {
+    padding: 5px 10px;
+    background-color: $color-default-background;
+    border: 1px solid $color-border;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px $color-default-box-shadow;
+    font-family: $font-family-secondary;
+    font-size: $font-size-s;
+  }
+}
