@@ -2,7 +2,7 @@
 ## Description
 React app for creating a shopping list.
 ## Technologies
-* SASS
+* SCSS (with BEM)
 * React
 ## Usage
 Shopping-list app can be run here: \
