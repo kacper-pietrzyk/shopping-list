@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7771ba41a90bc22c9c68",
+    "revision": "9a807c7aad1571d3abd4",
     "url": "/shopping-list/static/css/main.14a6ee8c.chunk.css"
   },
   {
-    "revision": "7771ba41a90bc22c9c68",
-    "url": "/shopping-list/static/js/main.7c1af5e5.chunk.js"
+    "revision": "9a807c7aad1571d3abd4",
+    "url": "/shopping-list/static/js/main.0abca719.chunk.js"
   },
   {
     "revision": "f83e989e4d16bb609454",
@@ -24,10 +24,6 @@ self.__precacheManifest = [
     "url": "/shopping-list/static/media/fa-brands-400.dc0bd022.woff"
   },
   {
-    "revision": "085b1dd8427dbeff10bd55410915a3f6",
-    "url": "/shopping-list/static/media/fa-brands-400.085b1dd8.ttf"
-  },
-  {
     "revision": "cac68c831145804808381a7032fdc7c2",
     "url": "/shopping-list/static/media/fa-brands-400.cac68c83.woff2"
   },
@@ -38,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "ad3a7c0d77e09602f4ab73db3660ffd8",
     "url": "/shopping-list/static/media/fa-regular-400.ad3a7c0d.eot"
+  },
+  {
+    "revision": "085b1dd8427dbeff10bd55410915a3f6",
+    "url": "/shopping-list/static/media/fa-brands-400.085b1dd8.ttf"
   },
   {
     "revision": "3a3398a6ef60fc64eacf45665958342e",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/shopping-list/static/media/fa-solid-900.c500da19.woff2"
   },
   {
-    "revision": "ee09ad7553b8ad3d81150d609d5341a0",
-    "url": "/shopping-list/static/media/fa-solid-900.ee09ad75.woff"
-  },
-  {
     "revision": "89bd2e38475e441a5cd70f663f921d61",
     "url": "/shopping-list/static/media/fa-solid-900.89bd2e38.eot"
+  },
+  {
+    "revision": "ee09ad7553b8ad3d81150d609d5341a0",
+    "url": "/shopping-list/static/media/fa-solid-900.ee09ad75.woff"
   },
   {
     "revision": "781e85bb50c8e8301c30de56b31b1f04",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/shopping-list/static/media/fa-solid-900.03ba7cb7.svg"
   },
   {
-    "revision": "8887548183500c43de7db48d4178cf6d",
+    "revision": "c34a7f39b73786ec3ae011e341872987",
     "url": "/shopping-list/index.html"
   }
 ];
