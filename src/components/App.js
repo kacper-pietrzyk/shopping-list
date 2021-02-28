@@ -68,7 +68,7 @@ class App extends Component {
 
   handleLoad = () => {
     const listToLoad = JSON.parse(localStorage.getItem("list"));
-    if (listToLoad.length && listToLoad !== null) {
+    if (listToLoad !== null && listToLoad.length) {
       this.setState({
         products: listToLoad
       });
