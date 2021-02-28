@@ -62,7 +62,24 @@ class App extends Component {
     }
   }
 
+  handleSave = () => {
+    localStorage.setItem("list", JSON.stringify(this.state.products));
+  }
+
+  handleLoad = () => {
+    const listToLoad = JSON.parse(localStorage.getItem("list"));
+    if (listToLoad.length) {
+      this.setState({
+        products: listToLoad
+      });
+    }
+  }
+
   render() {
+
+    // Firefox doesn't support this operation
+    window.addEventListener('beforeunload', this.handleSave);
+    window.addEventListener('load', this.handleLoad);
 
     const { products, activeSort, purchasedSort } = this.state;
 
